@@ -33,7 +33,7 @@ ser = serial.Serial(
         bytesize=serial.EIGHTBITS,
  
         # Number of serial commands to accept before timing out
-        timeout=0.1
+        timeout=0.05
 )
 
 ## SETTING UP MQTT
